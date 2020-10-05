@@ -383,3 +383,20 @@ Features:
 - **Special features**: Use SPARQL to query popular distributed data sources, e.g. files in Hadoop, NoSQL stores _on-the-fly_ i.e. without requiring pre-processing or ingestion. Disparate data may be joinable by declaratively altering some of its atrributes thanks to the use of the FnO ontology. State-of-the-art Big Data query engines are used for the querying, namely Apache Spark and Presto. Squerall can programmatically be [extended](https://github.com/EIS-Bonn/Squerall#extensibility) to use another query engines e.g. Drill or Dremio)
 - **DOI**: https://zenodo.org/record/2636436#.X3tOY_kzZPY
 - **License**: Apache-2.0
+
+
+## Tool 18:
+- **Name of the tool**: Ontario
+- **Description**: A federated query processing engine over heterogeneous data sources in a Semantic Data Lake. 
+- **Repository (link to the tool’s repository)**: https://github.com/SDM-TIB/Ontario
+- **Website (if is different to the repository)**: https://labs.tib.eu/info/projekt/ontario
+- **Open source? (If not open sourced, ideally provide an option to test it)**: yes
+- **Year introduced**: 2017
+- **Contact person (who is the main contact person?)**: Kemele M. Endris (kemele.endris@gmail.com)
+- **Purpose (what can one do with the tool?)**: Processor (executes rules to generate a knowledge graph). Generates a Knowledge Graph based on SPARQL SELECT/CONSTRUCT patterns.
+- **Mapping language**: RML
+- **Supported data (formats, sizes)**: RDF, CSV, JSON, RDB (MySQL, Postgres), MongoDB, Neo4j
+- **Programming language**: Python
+- **Special features**: Supports SPARQL SELECT and CONSTRUCT queries to generate Knowledge Graph on the fly (during query time). 
+- **DOI**: https://doi.org/10.1007/978-3-030-27615-7_29
+- **License**: GNU/GPL v2
